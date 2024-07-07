@@ -13,7 +13,7 @@ pipeline stages.
 import numpy as np
 import pandas as pd
 import sklearn.preprocessing
-from tqdm.autonotebook import tqdm
+from tqdm.auto import tqdm
 from skutil.preprocessing import scaler_by_params
 from sklearn.feature_extraction.text import (
     TfidfVectorizer,

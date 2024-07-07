@@ -20,7 +20,7 @@ except ImportError:  # pragma: no cover:
 
 import nltk
 import pandas as pd
-from tqdm.autonotebook import tqdm
+from tqdm.auto import tqdm
 
 from pdpipe.core import ColumnsBasedPipelineStage
 from pdpipe.util import out_of_place_col_insert

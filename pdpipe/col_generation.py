@@ -10,7 +10,7 @@ import pandas as pd
 import sortedcontainers as sc
 
 # import tqdm
-from tqdm.autonotebook import tqdm
+from tqdm.auto import tqdm
 
 from pdpipe.core import (
     PdpApplicationContext,
